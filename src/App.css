@@ -1,0 +1,23 @@
+.app-container {
+  background-image: url('https://i.pinimg.com/originals/cf/7a/c3/cf7ac36f56e67473ad89deade65d2d69.jpg');
+  padding: 5%;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.profile-image {
+  width: 20%;
+  border: solid whitesmoke 4px;
+}
+
+#intro {
+  padding-top: 10%;
+  color: whitesmoke;
+  
+}
+
+.navbar {
+
+}
