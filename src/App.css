@@ -18,6 +18,37 @@
   
 }
 
-.navbar {
+.hello {
+  padding-top: 10%;
+}
 
+.xp-container {
+  font-weight: bold;
+  margin: 20% 0;
+  padding: 5%;
+  background-color: plum;
+  border-radius: 5%;
+  color: rgb(208, 103, 152);
+}
+
+#about-me {
+  color: peachpuff;
+}
+
+.list-width {
+  width: 75%;
+}
+
+#nav {
+  color: whitesmoke;
+}
+
+.projects-container {
+  padding: 20% 0;
+  color: peachpuff;
+  
+}
+
+.project-img {
+  width: 50%;
 }

@@ -4,9 +4,12 @@ import './App.css'
 
 function Navbar() {
 	return (
-		<Nav className='justify-content-end'>
+		<Nav className='justify-content-end' id='nav'>
 			<Nav.Item>
 				<Nav.Link id='intro'>Intro</Nav.Link>
+			</Nav.Item>
+			<Nav.Item>
+				<Nav.Link id='about-me'>About Me</Nav.Link>
 			</Nav.Item>
 		</Nav>
 	);
