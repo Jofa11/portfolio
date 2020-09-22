@@ -1,0 +1,74 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h5 {
+  color: peachpuff;
+}
+
+.app-container {
+  background-image: url('https://i.pinimg.com/originals/cf/7a/c3/cf7ac36f56e67473ad89deade65d2d69.jpg');
+  padding: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.profile-image {
+  width: 20%;
+  border: solid whitesmoke 4px;
+}
+
+#intro {
+  padding-top: 10%;
+  color: whitesmoke;
+}
+
+.josh {
+  font-size: 1.8rem;
+}
+
+.hello {
+  padding-top: 10%;
+}
+
+.xp-container {
+  font-weight: bold;
+  margin: 20% 0;
+  padding: 5%;
+  background-color: plum;
+  border-radius: 5%;
+  color: rgb(208, 103, 152);
+}
+
+#about-me {
+  color: whitesmoke;  
+}
+
+.about {
+  color: peachpuff;
+}
+
+.repo {
+  color: peachpuff;
+}
+
+.list-width {
+  width: 75%;
+}
+
+.nav {
+  color: whitesmoke;
+}
+
+.projects-container {
+  padding: 20% 0;
+  color: peachpuff;
+  display: inline-block;
+}
+
+.project-img {
+  width: 70%;
+}
