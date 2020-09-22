@@ -4,12 +4,26 @@ import './App.css'
 
 function Navbar() {
 	return (
-		<Nav className='justify-content-end' id='nav'>
+		<Nav className='justify-content-end'>
 			<Nav.Item>
-				<Nav.Link id='intro'>Intro</Nav.Link>
+				<Nav.Link href='#intro' className='nav'>
+					Intro
+				</Nav.Link>
 			</Nav.Item>
 			<Nav.Item>
-				<Nav.Link id='about-me'>About Me</Nav.Link>
+				<Nav.Link href='#about-me' className='nav'>
+					About Me
+				</Nav.Link>
+			</Nav.Item>
+			<Nav.Item>
+				<Nav.Link href='#projects' className='nav'>
+					Projects
+				</Nav.Link>
+			</Nav.Item>
+			<Nav.Item>
+				<Nav.Link href='#contact' className='nav'>
+					Contact Me
+				</Nav.Link>
 			</Nav.Item>
 		</Nav>
 	);

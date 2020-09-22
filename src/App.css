@@ -1,7 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h5 {
+  color: peachpuff;
+}
+
 .app-container {
   background-image: url('https://i.pinimg.com/originals/cf/7a/c3/cf7ac36f56e67473ad89deade65d2d69.jpg');
   padding: 5%;
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   color: whitesmoke;
   text-align: center;
@@ -15,7 +24,10 @@
 #intro {
   padding-top: 10%;
   color: whitesmoke;
-  
+}
+
+.josh {
+  font-size: 1.8rem;
 }
 
 .hello {
@@ -32,6 +44,14 @@
 }
 
 #about-me {
+  color: whitesmoke;  
+}
+
+.about {
+  color: peachpuff;
+}
+
+.repo {
   color: peachpuff;
 }
 
@@ -39,16 +59,16 @@
   width: 75%;
 }
 
-#nav {
+.nav {
   color: whitesmoke;
 }
 
 .projects-container {
   padding: 20% 0;
   color: peachpuff;
-  
+  display: inline-block;
 }
 
 .project-img {
-  width: 50%;
+  width: 70%;
 }
