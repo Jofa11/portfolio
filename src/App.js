@@ -18,7 +18,7 @@ function App() {
 				<h2 className='hello'>Hello there.</h2>
 				<h4>
 					My name is <span className='josh'>Joshua Favre</span>. I am a junior full stack
-					developer who is eager to bring my talents to the right company.
+					developer who is eager to bring my talents to the right team.
 				</h4>
 			</Container>
 			<Container className='xp-container'>
@@ -41,7 +41,7 @@ function App() {
 				<br />
 				<h4>
 					I am a recent graduate of General Assembly's Software Engineering
-					Immersive Remote bootcamp. The experience of getting to learn and work
+					Immersive Remote boot camp. The experience of getting to learn and work
 					with many other talented individuals to achieve the same goals was
 					amazing! I was drawn to coding and computer science purely out of
 					curiosity. I am now totally hooked! My professional background is in
