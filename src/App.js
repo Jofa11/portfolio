@@ -17,8 +17,9 @@ function App() {
 				<Image src={josh} roundedCircle fluid className='profile-image' />
 				<h2 className='hello'>Hello there.</h2>
 				<h4>
-					My name is <span className='josh'>Joshua Favre</span>. I am a junior full stack
-					developer who is eager to bring my talents to the right team.
+					My name is <span className='josh'>Joshua Favre</span>. I am a full
+					stack <span className='josh'>Software Engineer</span> who is eager to
+					bring my talents to the right team.
 				</h4>
 			</Container>
 			<Container className='xp-container'>
@@ -40,23 +41,33 @@ function App() {
 				<h2>About Me</h2>
 				<br />
 				<h4>
-					I am a recent graduate of General Assembly's Software Engineering
-					Immersive Remote boot camp. The experience of getting to learn and work
-					with many other talented individuals to achieve the same goals was
-					amazing! I was drawn to coding and computer science purely out of
-					curiosity. I am now totally hooked! My professional background is in
-					the casino industry. To my pleasant surprise, the hospitality skills I
-					already possessed really proved valuable working in a team
-					environment. I am sure that experience would cross over to
-					communicating with clients as well.
+					I love to write code! I would totally be coding on my own even if I
+					couldn't do this professionally. I've really worked well on my own.
+					However, working with a team is so enjoyable to me. And this year, due
+					to CoVid19, I've been introduced to working collaboratively via Zoom.
+					The experience of getting to learn and work with many other talented
+					individuals to achieve the same goals has been amazing! I was drawn to
+					coding and computer science purely out of curiosity. I am now totally
+					hooked! My professional background is in the casino industry. To my
+					pleasant surprise, the hospitality skills I already possessed really
+					proved valuable working in a team environment. I am sure that
+					experience would cross over to communicating with clients as well. In
+					my free time, I mostly enjoy spending time with my family and
+					traveling. I also love tennis, gaming, skateboarding, and of course
+					coding!
 				</h4>
 			</Container>
 			<Container className='projects-container'>
 				<h2 id='projects'>Projects</h2>
 				<br />
 				<Nav>
-					<Nav.Item>
-						<h5>X Trainer is a full stack project using React and Django</h5>
+					<Nav.Item className='pad-bot'>
+						<a
+							href='https://gentle-reaches-48748.herokuapp.com/'
+							target='_blank'>
+							<h3>X Trainer</h3>
+						</a>
+						<h5>A full stack project using React and Django</h5>
 						<Nav.Link
 							href='https://gentle-reaches-48748.herokuapp.com/'
 							target='_blank'>
@@ -73,10 +84,12 @@ function App() {
 						</Nav.Link>
 					</Nav.Item>
 					<br />
-					<Nav.Item>
+					<Nav.Item className='pad-bot'>
+						<a href='https://warm-brook-93750.herokuapp.com/' target='_blank'>
+							<h3>Fleet</h3>
+						</a>
 						<h5>
-							Fleet is a group project I worked on using React and MongoDB with
-							Mongoose
+							A group project I worked on using React and MongoDB with Mongoose
 						</h5>
 						<Nav.Link
 							href='https://warm-brook-93750.herokuapp.com/'
@@ -94,10 +107,13 @@ function App() {
 						</Nav.Link>
 					</Nav.Item>
 					<br />
-					<Nav.Item>
-						<h5>
-							Guitar Chord App is a React project that uses a third party API
-						</h5>
+					<Nav.Item className='pad-bot'>
+						<a
+							href='https://project-two-guitar-app.herokuapp.com/'
+							target='_blank'>
+							<h3>Guitar Chord App</h3>
+						</a>
+						<h5>A React project that accesses a third party API</h5>
 						<Nav.Link
 							href='https://project-two-guitar-app.herokuapp.com/'
 							target='_blank'>
@@ -114,11 +130,11 @@ function App() {
 						</Nav.Link>
 					</Nav.Item>
 					<br />
-					<Nav.Item>
-						<h5>
-							Star Wars Trivia is a game built using vanilla Javascript, HTML,
-							and CSS
-						</h5>
+					<Nav.Item className='pad-bot'>
+						<a href='https://jofa11.github.io/trivia-project/' target='_blank'>
+							<h3>Star Wars Trivia</h3>
+						</a>
+						<h5>A game built using vanilla Javascript, HTML, and CSS</h5>
 						<Nav.Link
 							href='https://jofa11.github.io/trivia-project/'
 							target='_blank'>

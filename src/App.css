@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h5 {
+h5, h3 {
   color: peachpuff;
 }
 
@@ -44,7 +44,11 @@ h5 {
 }
 
 #about-me {
-  color: whitesmoke;  
+  color: rgb(208, 103, 152);
+  background-color: whitesmoke;
+  border-radius: 7%;
+  padding: 5%;
+  border: solid rgb(223, 88, 200) 7px;  
 }
 
 .about {
@@ -71,4 +75,12 @@ h5 {
 
 .project-img {
   width: 70%;
+}
+
+.pad-bot {
+  padding-bottom: 5%;
+}
+
+#contact {
+  padding-bottom: 5%;
 }
