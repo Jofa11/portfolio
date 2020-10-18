@@ -74,6 +74,8 @@ h5, h3 {
 }
 
 .project-img {
+  border: solid rgb(183, 41, 196) 10px;
+  border-radius: 5%;
   width: 70%;
 }
 
