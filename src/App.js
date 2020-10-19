@@ -24,7 +24,7 @@ function App() {
 			</Container>
 			<Container className='xp-container'>
 				<h4>Experience With These Technologies:</h4>
-				<ListGroup variant='flush'>
+				<ListGroup variant='flush' fluid>
 					<ListGroup.Item>Javascript</ListGroup.Item>
 					<ListGroup.Item>React</ListGroup.Item>
 					<ListGroup.Item>Bootstrap</ListGroup.Item>
