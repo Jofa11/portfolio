@@ -24,7 +24,7 @@ function App() {
 			</Container>
 			<Container className='xp-container'>
 				<h4>Experience With These Technologies:</h4>
-				<ListGroup variant='flush' fluid>
+				{/* <ListGroup variant='flush' fluid>
 					<ListGroup.Item>Javascript</ListGroup.Item>
 					<ListGroup.Item>React</ListGroup.Item>
 					<ListGroup.Item>Bootstrap</ListGroup.Item>
@@ -35,7 +35,19 @@ function App() {
 					<ListGroup.Item>Mongoose</ListGroup.Item>
 					<ListGroup.Item>Python</ListGroup.Item>
 					<ListGroup.Item>Django</ListGroup.Item>
-				</ListGroup>
+				</ListGroup> */}
+				<ul class='listStyle'>
+					<li class='list-item'>Javascript</li>
+					<li class='list-item'>React</li>
+					<li class='list-item'>Bootstrap</li>
+					<li class='list-item'>HTML</li>
+					<li class='list-item'>CSS</li>
+					<li class='list-item'>NodeJS</li>
+					<li class='list-item'>MongoDB</li>
+					<li class='list-item'>PhaserJS</li>
+					<li class='list-item'>Python</li>
+					<li class='list-item'>Django</li>
+				</ul>
 			</Container>
 			<Container id='about-me' className='about'>
 				<h2>About Me</h2>

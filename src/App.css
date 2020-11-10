@@ -36,11 +36,12 @@ h5, h3 {
 
 .xp-container {
   font-weight: bold;
-  margin: 20% 0;
+  margin: 20%;
   padding: 5%;
   background-color: plum;
   border-radius: 5%;
   color: rgb(208, 103, 152);
+  border: solid rgb(223, 88, 200) 7px;
 }
 
 #about-me {
@@ -85,4 +86,17 @@ h5, h3 {
 
 #contact {
   padding-bottom: 5%;
+}
+
+.listStyle {
+  list-style-type: none;
+  background-color: whitesmoke;
+  border-radius: 7%;
+  padding: 2%;
+  margin: 3%;
+}
+
+.list-item {
+  padding: 1%;
+  font-size: 1.5em;
 }
