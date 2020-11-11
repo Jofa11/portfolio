@@ -22,7 +22,8 @@ function App() {
 					bring my talents to the right team.
 				</h4>
 			</Container>
-			<Container fluid className='xp-container'>
+			<div class= 'xp-container'>
+				{/* <Container fluid className='xp-container'> */}
 				<h4>Experience With These Technologies:</h4>
 				{/* <ListGroup variant='flush' fluid>
 					<ListGroup.Item>Javascript</ListGroup.Item>
@@ -48,7 +49,8 @@ function App() {
 					<li class='list-item'>Python</li>
 					<li class='list-item'>Django</li>
 				</ul>
-			</Container>
+			</div>
+			{/* </Container> */}
 			<Container id='about-me' className='about'>
 				<h2>About Me</h2>
 				<br />
