@@ -22,7 +22,7 @@ function App() {
 					bring my talents to the right team.
 				</h4>
 			</Container>
-			<Container className='xp-container'>
+			<Container fluid className='xp-container'>
 				<h4>Experience With These Technologies:</h4>
 				{/* <ListGroup variant='flush' fluid>
 					<ListGroup.Item>Javascript</ListGroup.Item>
