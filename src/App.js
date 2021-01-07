@@ -22,7 +22,7 @@ function App() {
 					bring my talents to the right team.
 				</h4>
 			</Container>
-			<div class= 'xp-container'>
+			<div class='xp-container'>
 				{/* <Container fluid className='xp-container'> */}
 				<h4>Experience With These Technologies:</h4>
 				{/* <ListGroup variant='flush' fluid>
@@ -44,6 +44,7 @@ function App() {
 					<li class='list-item'>HTML</li>
 					<li class='list-item'>CSS</li>
 					<li class='list-item'>NodeJS</li>
+					<li class='list-item'>ExpressJS</li>
 					<li class='list-item'>MongoDB</li>
 					<li class='list-item'>PhaserJS</li>
 					<li class='list-item'>Python</li>
@@ -58,17 +59,23 @@ function App() {
 					I love to write code! I would totally be coding on my own even if I
 					couldn't do this professionally. I've really worked well on my own.
 					However, working with a team is so enjoyable to me. And this year, due
-					to CoVid19, I've been introduced to working collaboratively via Zoom.
+					to COVID19, I've been introduced to working collaboratively via Zoom.
 					The experience of getting to learn and work with many other talented
 					individuals to achieve the same goals has been amazing! I was drawn to
 					coding and computer science purely out of curiosity. I am now totally
-					hooked! My professional background is in the casino industry. To my
-					pleasant surprise, the hospitality skills I already possessed really
-					proved valuable working in a team environment. I am sure that
-					experience would cross over to communicating with clients as well. In
-					my free time, I mostly enjoy spending time with my family and
-					traveling. I also love tennis, gaming, skateboarding, and of course
-					coding!
+					hooked!{' '}
+					<a
+						href='https://docs.google.com/document/d/18t87PlpK-ww_PE8Or8BWujdb3QeVHrm6fj6cYdcxvuI/edit?usp=sharing'
+						target='_blank'
+						className='purp'>
+						Here is a link to my resume
+					</a>
+					. My professional background is in the casino industry. To my pleasant
+					surprise, the hospitality skills I already possessed really proved
+					valuable working in a team environment. I am sure that experience
+					would cross over to communicating with clients as well. In my free
+					time, I mostly enjoy spending time with my family and traveling. I
+					also love tennis, video games, skateboarding, and of course coding!
 				</h4>
 			</Container>
 			<Container className='projects-container'>
