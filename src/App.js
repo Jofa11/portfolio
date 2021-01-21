@@ -16,27 +16,14 @@ function App() {
 			<Container id='intro'>
 				<Image src={josh} roundedCircle fluid className='profile-image' />
 				<h2 className='hello'>Hello there.</h2>
-				<h4>
+				<h4 className='intro-text'>
 					My name is <span className='josh'>Joshua Favre</span>. I am a full
 					stack <span className='josh'>Software Engineer</span> who is eager to
 					bring my talents to the right team.
 				</h4>
 			</Container>
 			<div class='xp-container'>
-				{/* <Container fluid className='xp-container'> */}
 				<h4>Experience With These Technologies:</h4>
-				{/* <ListGroup variant='flush' fluid>
-					<ListGroup.Item>Javascript</ListGroup.Item>
-					<ListGroup.Item>React</ListGroup.Item>
-					<ListGroup.Item>Bootstrap</ListGroup.Item>
-					<ListGroup.Item>HTML</ListGroup.Item>
-					<ListGroup.Item>CSS</ListGroup.Item>
-					<ListGroup.Item>NodeJS</ListGroup.Item>
-					<ListGroup.Item>MongoDB</ListGroup.Item>
-					<ListGroup.Item>Mongoose</ListGroup.Item>
-					<ListGroup.Item>Python</ListGroup.Item>
-					<ListGroup.Item>Django</ListGroup.Item>
-				</ListGroup> */}
 				<ul class='listStyle'>
 					<li class='list-item'>Javascript</li>
 					<li class='list-item'>React</li>
@@ -51,33 +38,6 @@ function App() {
 					<li class='list-item'>Django</li>
 				</ul>
 			</div>
-			{/* </Container> */}
-			<Container id='about-me' className='about'>
-				<h2>About Me</h2>
-				<br />
-				<h4>
-					I love to write code! I would totally be coding on my own even if I
-					couldn't do this professionally. I've really worked well on my own.
-					However, working with a team is so enjoyable to me. And this year, due
-					to COVID19, I've been introduced to working collaboratively via Zoom.
-					The experience of getting to learn and work with many other talented
-					individuals to achieve the same goals has been amazing! I was drawn to
-					coding and computer science purely out of curiosity. I am now totally
-					hooked!{' '}
-					<a
-						href='https://docs.google.com/document/d/18t87PlpK-ww_PE8Or8BWujdb3QeVHrm6fj6cYdcxvuI/edit?usp=sharing'
-						target='_blank'
-						className='purp'>
-						Here is a link to my resume
-					</a>
-					. My professional background is in the casino industry. To my pleasant
-					surprise, the hospitality skills I already possessed really proved
-					valuable working in a team environment. I am sure that experience
-					would cross over to communicating with clients as well. In my free
-					time, I mostly enjoy spending time with my family and traveling. I
-					also love tennis, video games, skateboarding, and of course coding!
-				</h4>
-			</Container>
 			<Container className='projects-container'>
 				<h2 id='projects'>Projects</h2>
 				<br />
@@ -172,6 +132,34 @@ function App() {
 						</Nav.Link>
 					</Nav.Item>
 				</Nav>
+			</Container>
+			<br />
+			<br />
+			<Container id='about-me' className='about'>
+				<h2>About Me</h2>
+				<br />
+				<h4>
+					I love to write code! I would totally be coding on my own even if I
+					couldn't do this professionally. I've really worked well on my own.
+					However, working with a team is so enjoyable to me. And this year, due
+					to COVID19, I've been introduced to working collaboratively via Zoom.
+					The experience of getting to learn and work with many other talented
+					individuals to achieve the same goals has been amazing! I was drawn to
+					coding and computer science purely out of curiosity. I am now totally
+					hooked!{' '}
+					<a
+						href='https://docs.google.com/document/d/18t87PlpK-ww_PE8Or8BWujdb3QeVHrm6fj6cYdcxvuI/edit?usp=sharing'
+						target='_blank'
+						className='purp'>
+						Here is a link to my resume
+					</a>
+					. My professional background is in the casino industry. To my pleasant
+					surprise, the hospitality skills I already possessed really proved
+					valuable working in a team environment. I am sure that experience
+					would cross over to communicating with clients as well. In my free
+					time, I mostly enjoy spending time with my family and traveling. I
+					also love tennis, video games, skateboarding, and of course coding!
+				</h4>
 			</Container>
 			<Social />
 			<Navbar />
