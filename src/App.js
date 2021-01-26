@@ -8,6 +8,7 @@ import trainer from './trainer.png';
 import fleet from './fleet.png';
 import guitar from './guitar.png';
 import vader from './vader.png';
+import myVerse from './my-verse-home.png';
 
 function App() {
 	return (
@@ -42,6 +43,27 @@ function App() {
 				<h2 id='projects'>Projects</h2>
 				<br />
 				<Nav>
+					<Nav.Item className='pad-bot'>
+						<a href='https://send-my-verse.herokuapp.com/' target='_blank'>
+							<h3>My Verse</h3>
+						</a>
+						<h5>A MERN stack project using vanilla CSS</h5>
+						<Nav.Link
+							href='https://send-my-verse.herokuapp.com/'
+							target='_blank'>
+							<Image
+								className='project-img'
+								src={myVerse}
+								alt='My Verse'></Image>
+						</Nav.Link>
+						<Nav.Link
+							className='repo'
+							href='https://github.com/Jofa11/myVerse-frontend'
+							target='_blank'>
+							My Verse GitHub Repo
+						</Nav.Link>
+					</Nav.Item>
+					<br />
 					<Nav.Item className='pad-bot'>
 						<a
 							href='https://gentle-reaches-48748.herokuapp.com/'
