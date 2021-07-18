@@ -9,6 +9,7 @@ import fleet from './fleet.png';
 import guitar from './guitar.png';
 import vader from './vader.png';
 import myVerse from './my-verse-home.png';
+import theMeg from './megs-landing.png';
 
 function App() {
 	return (
@@ -20,7 +21,7 @@ function App() {
 				<h4 className='intro-text'>
 					My name is <span className='josh'>Joshua Favre</span>. I am a full
 					stack <span className='josh'>Software Engineer</span> who is eager to
-					bring my talents to the right team.
+					bring my talents to a great team.
 				</h4>
 			</Container>
 			<div class='xp-container'>
@@ -43,6 +44,24 @@ function App() {
 				<h2 id='projects'>Projects</h2>
 				<br />
 				<Nav>
+					<Nav.Item className='pad-bot'>
+						<a href='https://send-my-verse.herokuapp.com/' target='_blank'>
+							<h3>theMegsList</h3>
+						</a>
+						<h5>A marketplace app. MERN stack with Redux</h5>
+						<Nav.Link href='https://themegslist.herokuapp.com/' target='_blank'>
+							<Image
+								className='project-img'
+								src={theMeg}
+								alt='theMegsList'></Image>
+						</Nav.Link>
+						<Nav.Link
+							className='repo'
+							href='https://github.com/Jofa11/theMegslist'
+							target='_blank'>
+							theMegsList GitHub Repo
+						</Nav.Link>
+					</Nav.Item>
 					<Nav.Item className='pad-bot'>
 						<a href='https://send-my-verse.herokuapp.com/' target='_blank'>
 							<h3>My Verse</h3>
