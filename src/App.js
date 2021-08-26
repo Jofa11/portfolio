@@ -45,7 +45,7 @@ function App() {
 				<br />
 				<Nav>
 					<Nav.Item className='pad-bot'>
-						<a href='https://send-my-verse.herokuapp.com/' target='_blank'>
+						<a href='https://themegslist.herokuapp.com/' target='_blank'>
 							<h3>theMegsList</h3>
 						</a>
 						<h5>A marketplace app. MERN stack with Redux</h5>
